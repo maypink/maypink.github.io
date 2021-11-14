@@ -5,38 +5,43 @@
         <meta charset="UTF-8">
         <meta name="keywords" content="CV, ITMO, ML, DL, Data Science, Algorithms, Data Structure"> 
         <meta name="description" content="Junior Data Scientist in Russia CV">
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/laba2.css">
+
+
     </head>
     <body>
+    <div class = "container">
         <header>
-
-                <div>
+                <div class = "title">
                     <h1>
                         Pinchuk Maiia Profile
                     </h1>
                     <div></div>
                 </div>
 
-                <section class="main info about me">
+                <div class="main-info-about-me">
                     <img src="img/profile_photo.jpg" alt="Picture of me" width = "30%" height="30%">
                     <div class="my-name">
                         <span>Pinchuk Maiia</span>
                         <br>
                         <em>Junior Data Scientist</em>
                     </div>
-                </section>
+                </div>
         </header>
-        <main>
 
-            <div id="sidebar">
-                <article class="Contacts">
+        <main>
+            <aside>
+                <section class="small-sense-block">
                     <span><h2>Contacts</h2></span>
                     <ul>
                         <li>8-982-208-95-18</li>
                         <li>mayaprr@yandex.ru</li>
                     </ul>
-                </article>
+                </section>
             
-                <section class ="Personal qualities">
+                <section class ="small-sense-block">
                     <span><h2>Personal qualities</h2></span>
                     <ul>
                         <li>Critical thinking</li>
@@ -44,17 +49,18 @@
                         <li>Proactive</li>
                         <li>Communicable</li>
                     </ul>
-            </div>
+                </section>
+                </aside>
 
             <div id="content">
-                <section class="Education">
+                <div class="sense-block">
                     <h2>Education</h2>
-                    <section class="Scool">
+                    <section class="small-sense-block">
                         <p><h3>Gimnazia 2, Surgut</h3>
-                            <time >2008-2019</time>
+                            <time datetime="2008-09-01">2008-2019</time>
                         </p>
                     </section>
-                    <section class="University">
+                    <section class="small-sense-block">
                         <p><h3>ITMO</h3>
                         </p>
                         <div class="Description">
@@ -63,15 +69,14 @@
                                 computer science.
                                 Almost every important project in university you can see in my github.
                             </p>
-                            <time >2019-2023</time>
+                            <time  datetime="2019-09-01">2019-2023</time>
                         </div>
-                </section>
+                    </div>
 
-                <section class="Work experience">
+                <div class="sense-block">
                     <h2>Work experience</h2>
-                    <section class="Freelance">
-                        <p><h3>Freelance</h3>
-                            <h4>Tasks</h4>
+                        <h3>Freelance</h3>
+                            <section class="small-sense-block">
                             <dl>
                                 <dt>Data parsing</dt>
                                 <dt>Data processing and analysis</dt>
@@ -80,13 +85,53 @@
                                 <dt>Building machine learning models</dt>
                                 <dt>Interpretation of results</dt>
                             </dl>
-                            <time >June 2021-Oct 2021</time>
-                        </p>
+                            <time datetime="2021-06-01" >June 2021-Oct 2021</time>
                     </section>
+                </div>
+
+                <section class ="sense-block">
+                    <h2>Technology skills</h2>
+                    <section class="small-sense-block">
+                        <dl>
+                            <dt>Programming Languages</dt>
+                                <dd>Python(Numpy, MatplotLib, Pandas, Scikit-learn, Tornado, PyTorch)</dd>
+                                <dd>C++</dd>
+                            <dt>Must-have </dt>
+                                <dd>Git</dd>
+                                <dd>Jupyter</dd>
+                                <dd>Linux</dd>
+                                <dd>Bash</dd>
+                            <dt>Web Backend</dt>
+                                <dd>Python Tornado</dd>
+                            <dt>Web Frontend</dt>
+                                <dd>HTML</dd>
+                                <dd>CSS</dd>
+                                <dd>JavaScript</dd> 
+                        </dl>
+                    </section>
+                 </section>
+
+                <section class ="sense-block">
+                    <h2>Events</h2>
+                    <dl>
+                        <section class="small-sense-block">
+                        <dt>Digital services for personal assistance,  <time >Nov 2020</time></dt>
+                            <ul>
+                               <dd> <li>Personalities types research</li></dd>
+                                <dd><li>Creating recommendations for company products based on social-media data and personalities types</li></dd>
+                            </ul>
+                        <dt>RaifHack, Sept 2021</dt>
+                            <ul>
+                                <dd><li>Real estate appraisal criteria research</li></dd>
+                                <dd><li>Predict the cost of commercial real estate</li></dd>
+                            </ul>
+                    </dl>
+                        </section>
                 </section>
 
                 <section class="Code">
                     <h2>Piece of my code</h2>
+                    <section class="small-sense-block">
                     <p>This piece of code is saving manga content in cache</p>
                     <pre><code> 
 def _save_content(self, manga: Manga) -> HashUrl:
@@ -101,17 +146,60 @@ def _save_content(self, manga: Manga) -> HashUrl:
 
     return hsh
                     </code></pre>
+                    </section>
                 </section>
 
-                <section class= "ACII Animal"></section>
-                <h2>ACII Ducks</h2>
-                <pre>
+                <article class= "ACII Animal"></section>
+                    <h2>ACII Ducks</h2>
+                    <section class="small-sense-block">
+                    <pre>
       _          _          _          _          _
     >(')____,  >(')____,  >(')____,  >(')____,  >(') ___,
      (` =~~/    (` =~~/    (` =~~/    (` =~~/    (` =~~/
 ~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~^`---'~^~^~
-                </pre>
+                    </pre>
+                    </section>
+                </article>
 
+                <article class = "Favorite poem">
+                    <h2>Favorite poem</h2>
+                    <section class="small-sense-block">
+                    <blockquote>
+                        <pre>
+Вода по стеблю поднимаясь,
+Идет к зеленому листу
+И с СО<sub>2</sub> соединяясь
+Дает нам сахар на свету.
+Вот так творение природы
+Волшебный добрый хлорофилл.
+Способен прокормить народы
+Хотя уж в вечеру без сил.
+                        </pre>
+                    </blockquote>
+                    </section>
+                </article>
             </div>
+
         </main>
+    </div>
+        <footer>
+            <nav>
+
+                <section>
+                    <a href="https://github.com/maypink" title="github"><img src="./img/github.png"
+                            alt="Github" width="40px" height="40px"></a>
+                </section>
+    
+                <section>
+                    <a href="https://vk.com/geterotrof" title="vk"><img
+                            src="./img/vk.png" alt="VK" width="40px"
+                            height="40px"></a>
+                </section>
+    
+                <section>
+                    <a href="http://t.me/metpinc" title="telegram"><img src="./img/tg.png"
+                            alt="Telegram" width="40px" height="40px"></a>
+                </section>
+            </nav>
+        </footer>
     </body>

@@ -1,0 +1,58 @@
+body {
+    margin: 3%;
+}
+
+.title {
+    font-size: x-large;
+    text-align: center
+}
+
+h1, h2, h3 { font-size: 1.2em; }
+
+dt {
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 1px;
+}
+
+dd, li {
+    margin-left: 5px;
+}
+
+.small-sense-block {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(235, 203, 240, 0.5);
+}
+
+.main-info-about-me {
+    background-color: rgba(227, 145, 238, 0.5);
+}
+
+.main-info-about-me img {
+    border-radius: 10px;
+}
+
+aside {
+    background-color: rgba(215, 238, 132, 0.5);
+    margin: 10px;
+    padding: 5px;
+}
+
+aside section {
+    padding: 5px;
+}
+
+#content {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(127, 76, 173, 0.5);
+}
+
+.sense-block {
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(239, 221, 255, 0.5);
+}
