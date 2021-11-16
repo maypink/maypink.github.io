@@ -19,14 +19,24 @@ dd, li {
     margin-left: 5px;
 }
 
-.small-sense-block {
-    margin: 5px;
+.sense-block {
+    box-shadow: 0 0 5px;
     padding: 5px;
+    margin: 5px;
+}
+
+.small-sense-block {
+    padding: 5px;
+    margin: 5px;
     background-color: rgba(235, 203, 240, 0.5);
 }
 
 .main-info-about-me {
+    box-shadow: 0 0 5px;
     background-color: rgba(227, 145, 238, 0.5);
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
 }
 
 .main-info-about-me img {
@@ -34,9 +44,10 @@ dd, li {
 }
 
 aside {
-    background-color: rgba(215, 238, 132, 0.5);
-    margin: 10px;
+    background-color: rgba(181, 248, 155, 0.5);
+    box-shadow: 0 0 5px;
     padding: 5px;
+    margin: 5px;
 }
 
 aside section {
@@ -44,13 +55,13 @@ aside section {
 }
 
 #content {
-    margin: 10px;
     padding: 5px;
+    margin: 5px;
     background-color: rgba(127, 76, 173, 0.5);
 }
 
-.sense-block {
-    padding: 5px;
+.social-media {
+    display: inline;
 }
 
 footer {
