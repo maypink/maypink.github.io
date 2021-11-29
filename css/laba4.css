@@ -3,17 +3,24 @@
     overflow-x: hidden;
 }
 
-/* .rest-skills-info {
-    align: left;
-} */
-
-.main-info-about-me {
-    /* position: relative;
-    align-self: center; */
+.duck-one {
+    z-index: 1;
+    left: 15px;
+    position: relative;
 }
 
-.main-info-about-me img {
-    /* height: auto;
-    width: 30%;
-    align-self: left; */
+.duck-two {
+    z-index: 2;
+    left: 0px;
+    position: relative;
+}
+
+.duck-three {
+    z-index: 3;
+    left: -15px;
+    position: relative;
+}
+
+.duck-two:hover, .duck-one:hover { 
+    z-index: 10; 
 }
