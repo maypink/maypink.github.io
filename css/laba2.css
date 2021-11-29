@@ -1,5 +1,21 @@
+header {
+    width: 55%;
+}
+
+aside {
+    padding: 5px;
+    margin: 5px; 
+    margin-top: 37px;
+    background-color: rgba(127, 76, 173, 0.5);
+}
+
+aside section {
+    padding: 5px;
+}
+
 body {
     margin: 3%;
+    margin-top: 1%;
 }
 
 .title {
@@ -43,18 +59,15 @@ dd, li {
     border-radius: 10px;
 }
 
-aside {
+.contacts {
     background-color: rgba(181, 248, 155, 0.5);
     box-shadow: 0 0 5px;
     padding: 5px;
     margin: 5px;
 }
 
-aside section {
-    padding: 5px;
-}
-
 #content {
+    /* width: 100%; */
     padding: 5px;
     margin: 5px;
     background-color: rgba(127, 76, 173, 0.5);
@@ -65,5 +78,6 @@ aside section {
 }
 
 footer {
+    /* width: 100%; */
     background-color: rgba(239, 221, 255, 0.5);
 }

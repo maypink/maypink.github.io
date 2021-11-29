@@ -8,10 +8,13 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/laba2.css">
-
+        <link rel="stylesheet" href="css/laba3.css">
+        <link rel="stylesheet" href="css/laba4.css">
 
     </head>
     <body>
+
+    <div class="wrapper">
         <header>
                 <div class = "title">
                     <h1>
@@ -20,46 +23,45 @@
                 </div>
 
                 <div class="main-info-about-me">
-                    <img src="img/profile_photo.jpg" alt="Picture of me" width = "30%" height="30%">
+                    <img src="img/profile_photo.jpg" alt="Picture of me" width = "400px" height="260px">
                     <div class="my-name">
                         <span>Pinchuk Maiia</span>
                         <br>
                         <em>Junior Data Scientist</em>
                     </div>
                 </div>
+                
+                <article class="contacts">
+                 <section class="small-sense-block">
+                        <span><h2>Contacts</h2></span>
+                        <ul>
+                            <li><img src="./img/phone.jpg" alt="Phone" width="19px" height="19px">   8-982-208-95-18</li>
+                            <li><img src="./img/email.jpg" alt="Email" width="23px" height="18px">   mayaprr@yandex.ru</li>
+                        </ul>
+                </section>
+                
+                 <section class ="small-sense-block">
+                        <span><h2>Personal qualities</h2></span>
+                        <ul>
+                            <li>Critical thinking</li>
+                            <li>Responsible</li>
+                            <li>Proactive</li>
+                            <li>Communicable</li>
+                        </ul>
+                 </section>
+                </article> 
         </header>
 
-        <main>
-            <aside>
-                <section class="small-sense-block">
-                    <span><h2>Contacts</h2></span>
-                    <ul>
-                        <li><img src="./img/phone.jpg" alt="Phone" width="19px" height="19px">   8-982-208-95-18</li>
-                        <li><img src="./img/email.jpg" alt="Email" width="23px" height="18px">   mayaprr@yandex.ru</li>
-                    </ul>
-                </section>
-            
-                <section class ="small-sense-block">
-                    <span><h2>Personal qualities</h2></span>
-                    <ul>
-                        <li>Critical thinking</li>
-                        <li>Responsible</li>
-                        <li>Proactive</li>
-                        <li>Communicable</li>
-                    </ul>
-                </section>
-             </aside>
-
-            <div id="content">
-                <div class="sense-block">
+        <aside>
+            <div class="sense-block">
                     <h2>Education</h2>
-                    <section class="small-sense-block">
+                    <!-- <section class="small-sense-block">
                         <p><h3>Gimnazia 2, Surgut</h3></p>
                         <p> Class with a focus on technical subjects
                             </p>
                             <time datetime="2008-09-01">2008</time> - <time datetime="2008-05-31">2019</time>
                         </p>
-                    </section>
+                    </section> -->
                     <section class="small-sense-block">
                         <p><h3>ITMO</h3></p>
                         <p>
@@ -67,9 +69,9 @@
                         </p>
                         <time datetime="2008-09-01">2019</time> - <time datetime="2008-05-31">2023</time>
                     </section>
-                </div>
+             </div>
 
-                <div class="sense-block">
+             <div class="sense-block">
                     <h2>Work experience</h2>
                         <h3>Freelance</h3>
                         <section class="small-sense-block">
@@ -80,13 +82,18 @@
                                 <dd>Cleaning data</dd>
                                 <dt><ins>Building machine learning models</ins></dt>
                                 <dt>Interpretation of results</dt>
-                                <dt><del>Complete submission</del></dt>
+                                <dt>Something impornant</dt>
+                                <dt><del>Co<sub>m</sub>pl<sup>e</sup>te submission</del></dt>
                                 </dl>
                                 <br>
                                 <time datetime="2021-06-01">June 2021</time> - <time datetime="2021-09-01">Sept 2021</time>
                         </section>
                 </div>
+        </aside>
+    </div>
 
+        <main>
+            <div id="content">
                 <section class ="sense-block">
                     <h2>Technology skills</h2>
                     <section class="small-sense-block">
@@ -172,7 +179,7 @@ def _save_content(self, manga: Manga) -> HashUrl:
 Волшебный добрый хлорофилл.
 Способен прокормить народы
 Хотя уж в вечеру без сил.
-                            </pre>
+                        </pre>
                         </blockquote>
                     </section>
                 </article>
@@ -180,7 +187,6 @@ def _save_content(self, manga: Manga) -> HashUrl:
         </main>
 
         <footer>
-            <nav>
                 <article class = "sense-block">
                     <section class = "social-media">
                         <a href="https://github.com/maypink" title="github"><img src="./img/github.png"
@@ -198,6 +204,5 @@ def _save_content(self, manga: Manga) -> HashUrl:
                                 alt="Telegram" width="40px" height="40px"></a>
                     </section>
                 </article>
-            </nav>
         </footer>
     </body>

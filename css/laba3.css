@@ -1,0 +1,29 @@
+head {
+    font-family: 'Yandex Sans Display Light', Georgia, Times, sans-serif;
+}
+
+aside {
+    text-align: center;
+    word-spacing: 1px;
+    color: rgb(44, 43, 43);
+}
+
+body {
+    font-size: 16px;
+    line-height: normal;
+    color: black;
+    font-family: 'Yandex Sans Display Light', Georgia, Times, sans-serif;
+    font-weight: normal;
+}
+
+.small-sense-block {
+    line-height: 180%;
+}
+
+.sense-block {
+    text-align: center;
+}
+
+.small-sense-block{
+    text-align: center;
+}

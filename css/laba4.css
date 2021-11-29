@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    overflow-x: hidden;
+}
+
+/* .rest-skills-info {
+    align: left;
+} */
+
+.main-info-about-me {
+    /* position: relative;
+    align-self: center; */
+}
+
+.main-info-about-me img {
+    /* height: auto;
+    width: 30%;
+    align-self: left; */
+}
