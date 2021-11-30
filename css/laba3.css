@@ -2,6 +2,16 @@ head {
     font-family: 'Yandex Sans Display Light', Georgia, Times, sans-serif;
 }
 
+.main-info-about-me img {
+    outline: 5px solid transparent;
+}
+
+.main-info-about-me img:hover {
+    transition: all ease 0.8s;
+    outline: 1px solid rgba(0, 0, 0, 0.5);
+    outline-offset: 0.5px;
+}
+
 aside {
     text-align: center;
     word-spacing: 1px;
