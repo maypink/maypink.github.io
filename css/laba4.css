@@ -3,6 +3,15 @@
     overflow-x: hidden;
 }
 
+.header-nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0; 
+    top: 0;
+    max-width: fit-content;
+}
+
 .duck-one {
     z-index: 1;
     left: 1.5%;
@@ -10,6 +19,8 @@
 }
 
 .duck-two {
+    opacity: 0;
+    transition: all ease 0.8s;
     z-index: 2;
     left: 0%;
     position: relative;
@@ -24,3 +35,16 @@
 .duck-two:hover, .duck-one:hover { 
     z-index: 10; 
 }
+
+.duck-two:hover {
+    opacity: 1;
+  }
+
+  .poem-img {
+      border-radius: 50%;
+      align-self: center;
+      margin-right: 0;
+      float: bottom;
+  }
+
+  
