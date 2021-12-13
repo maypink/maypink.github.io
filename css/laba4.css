@@ -40,11 +40,8 @@
     opacity: 1;
   }
 
-  .poem-img {
-      border-radius: 50%;
-      align-self: center;
-      margin-right: 0;
-      float: bottom;
-  }
-
-  
+.poem-img {
+    border-radius: 50%;
+    margin-right: 0;
+    float: bottom;
+}

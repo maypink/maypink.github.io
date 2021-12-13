@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/timetable.css">
+    <script src="js/timetable.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">
+            Составить планы на неделю
+        </h1>
+    </header>
+    <main>
+        <div class="form_div">
+            <form id="form">
+                <p class="part_of_form">
+                    <label for="language">
+                        <span class="label_language">Выберите язык расписания: </span>
+                        <select name="language" id="language" onchange="change_language()">
+                            <option value="rus">Русский</option>
+                            <option value="eng">English</option>
+                        </select>
+                    </label>
+                </p>
+                <p class="part_of_form">
+                    <label for="max_number_of_days">
+                        <span class="max_number_of_days">Количество задач в день:</span>
+                        <input name="max_number_of_days" id="max_number_of_days" type="number" value="5" min="1">
+                    </label>
+                </p>
+
+                <span class="clue">*чтобы добавить больше задач, кликни на любой день недели :)</span>
+            </form>
+
+            <button id="submit" name="submit" onclick=" generate_table(); save_params();">Создать</button>
+            <button id="clear_table" name="clear_table" onclick="clear_table()">Очистить таблицу</button>
+            <button id="clear" name="clear" onclick="clear_all()">Очистить хранилище</button>
+        </div>
+
+        <div class="content">
+            <table class="table">
+                <tr class="header_table">
+                    <th class="monday" onclick="add_row(); save_params();">
+                        Понедельник
+                    </th>
+                    <th class="tuesday" onclick="add_row(); save_params();">
+                        Вторник
+                    </th>
+                    <th class="wednesday" onclick="add_row(); save_params();">
+                        Среда
+                    </th>
+                    <th class="thursday" onclick="add_row(); save_params();">
+                        Четверг
+                    </th>
+                    <th class="friday" onclick="add_row(); save_params();">
+                        Пятница
+                    </th>
+                    <th class="saturday" onclick="add_row(); save_params();">
+                        Суббота
+                    </th>
+                    <th class="sunday" onclick="add_row(); save_params();">
+                        Воскресенье
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <script>
+        init()
+    </script>
+</body>
+
+</html>

@@ -67,7 +67,6 @@ dd, li {
 }
 
 #content {
-    /* width: 100%; */
     padding: 5px;
     margin: 5px;
     background-color: rgba(127, 76, 173, 0.5);
@@ -78,6 +77,5 @@ dd, li {
 }
 
 footer {
-    /* width: 100%; */
     background-color: rgba(239, 221, 255, 0.5);
 }
