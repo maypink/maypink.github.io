@@ -2,6 +2,24 @@ function say_hi() {
     window.prompt("как дела твои.........дружище......")
 }
 
+function is_sure(){
+    let lang = document.getElementById("language").value;
+    switch(lang){
+        case "rus":
+            res = window.confirm("Уверен, что хочешь все удалить?")
+            if (res==true) {
+                clear_all()
+            }
+            break;
+        case "eng" :
+            res = window.confirm("Are u sure u wanna delete all this?")
+            if (res==true) {
+                clear_all()
+            }
+            break;
+    }
+}
+
 function change_language() {
     let label_lang = document.querySelector(".label_language")
     let title = document.querySelector(".title")
