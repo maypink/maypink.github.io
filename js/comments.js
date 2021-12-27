@@ -5,7 +5,7 @@ const getJSON = async () => {
         const comments = await response.json();
         return comments;
     } else {
-        const message = `An error has occurred: ${response.status}`;
+        const message = `Smth went wrong. Error code: ${response.status}`;
         throw new Error(message);
     }
 };
@@ -20,7 +20,7 @@ getJSON().then((data) => {
             }
         });
     })
-    .catch((error) => {
+    .then(null, (error) => {
         showError();
         hidePreloader();
         console.log(error)
