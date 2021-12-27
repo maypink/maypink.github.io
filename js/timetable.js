@@ -1,6 +1,6 @@
-function say_hi() {
-    window.prompt("как дела твои.........дружище......")
-}
+// function say_hi() {
+//     window.prompt("как дела твои.........дружище......")
+// }
 
 function is_sure(){
     let lang = document.getElementById("language").value;

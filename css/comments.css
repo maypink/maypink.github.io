@@ -1,0 +1,110 @@
+body {
+    font-size: 18px;
+    line-height: normal;
+    color: rgb(194, 255, 217);
+    background-color: black;
+    font-family: 'Times New Roman', Georgia, Times, sans-serif;
+    font-weight: normal;
+}
+
+header {
+    margin-top: 5em;
+    display: flex;
+}
+
+header h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    color: rgb(194, 255, 217);
+    padding: 10px;
+}
+
+.rotate-right {
+    margin-right: 21em;
+    transform: rotate(180deg);
+}
+
+main section {
+    margin: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: black;
+    /* -webkit-box-shadow: 0px 0px 5px 6px rgba(243, 171, 237, 0.712);
+    -moz-box-shadow: 0px 0px 5px 6px rgba(216, 149, 243, 0.61); */
+    box-shadow: 0px 0px 5px 6px rgba(231, 145, 214, 0.719);
+}
+
+.post_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* comment */
+
+.label_comment, .comment_id, .label_user_email, .user_email {
+    color:rgb(194, 255, 217);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.label_user_email, .user_email {
+    margin: 5em;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    color: rgba(231, 145, 214, 0.719);
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.text_comment {
+    text-align: center;
+}
+
+/* comment */
+
+#preloader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #000000 url('//cdnjs.cloudflare.com/ajax/libs/file-uploader/3.7.0/processing.gif') no-repeat center center;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+main {
+    position: relative;
+    background-color: black;
+    min-height: calc(100vh - 47px);
+}
+
+.inner {
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
